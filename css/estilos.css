@@ -1,0 +1,16 @@
+:root {
+    --color-principal: #6c63ff;
+    --color-fondo: #f4f4f4;
+}
+
+body {
+    background-color: var(--color-fondo);
+    font-family: Arial;
+    text-align: center;
+}
+
+.perfil img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
