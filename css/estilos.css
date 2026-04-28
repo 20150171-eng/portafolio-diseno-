@@ -1,7 +1,7 @@
 /* Configuración para Diseñadores Gráficos */
 body {
     font-family: sans-serif;
-    background-color: ##3b87a3; /* Un gris claro de fondo */
+    background-color: #FFAAA6; /* Un gris claro de fondo */
     color: #0A0A0A; /* Texto gris oscuro para mejor lectura */
     line-height: 1.6;
     margin: 0;
@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color: ##faec6b; /* Un color elegante */
+    background-color: #FF8C94; /* Un color elegante */
     color: white;
     padding: 20px;
     text-align: center;
@@ -127,56 +127,4 @@ section {
     padding: 8px 18px;
     border-radius: 25px;
     border: 5px solid #f5b8b9;
-}
-/* Menú Superior */
-.menu-superior {
-    background-color: #004a99; /* Azul - Así es visible */
-    padding: 15px 0;
-    position: sticky; 
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra para que resalte sobre el fondo */
-    width: 100%;
-}
-
-.contenedor-menu {
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-}
-
-.logo {
-    color: #ffffff; /* Blanco */
-    font-weight: bold;
-    font-size: 1.5rem;
-    text-transform: uppercase;
-}
-
-.enlaces {
-    list-style: none;
-    display: flex;
-    gap: 30px; /* Espacio entre botones */
-    margin: 0;
-}
-
-.enlaces a {
-    color: #ffffff; /* Texto Blanco siempre visible */
-    text-decoration: none;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.enlaces a:hover {
-    color: #ff0000; /* Rojo cuando pasas el mouse */
-}
-
-/* Botón del Carrito resaltado */
-.boton-carrito {
-    background-color: #d32f2f; /* Rojo*/
-    padding: 8px 18px;
-    border-radius: 25px;
-    border: 2px solid #ffffff;
 }
