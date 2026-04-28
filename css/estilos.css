@@ -1,18 +1,31 @@
-:root {
-    --color-principal: #F9E5BC;
-    --color-fondo: #fffaba;
+/* Configuración para Diseñadores Gráficos */
+body {
+    font-family: sans-serif;
+    background-color: #FFAAA6; /* Un gris claro de fondo */
+    color: #0A0A0A; /* Texto gris oscuro para mejor lectura */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
 }
 
-body {
-    background-color: var(--color-fondo);
-    font-family: Arial;
+header {
+    background-color: #FF8C94; /* Un color elegante */
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-.perfil img {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+img {
+    border-radius: 50%; /* Hace que la foto de perfil sea circular */
+    border: 5px solid #FEFAE0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+section {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
 }
 /* Estilos para el Formulario */
 #contacto {
@@ -49,7 +62,7 @@ body {
 
 .boton-enviar {
     background-color: var(--rojo-inem);
-    color: blue;
+    color: green;
     padding: 15px;
     border: none;
     border-radius: 8px;
@@ -61,15 +74,17 @@ body {
 .boton-enviar:hover {
     background-color: var(--azul-inem);
 }
+
 /* Menú Superior */
 .menu-superior {
-    background-color: #ffd34f; /* Azul - Así es visible */
+    background-color: #f03765; /* Azul - Así es visible */
     padding: 15px 0;
     position: sticky; 
     top: 0;
     z-index: 1000;
     box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra para que resalte sobre el fondo */
     width: 100%;
+    border-bottom: 50px solid #9e2b48;
 }
 
 .contenedor-menu {
@@ -91,7 +106,7 @@ body {
 .enlaces {
     list-style: none;
     display: flex;
-    gap: 30px; /* Espacio entre botones */
+    gap: 80px; /* Espacio entre botones */
     margin: 0;
 }
 
@@ -111,5 +126,5 @@ body {
     background-color: #d32f2f; /* Rojo*/
     padding: 8px 18px;
     border-radius: 25px;
-    border: 2px solid #ffffff;
+    border: 5px solid #f5b8b9;
 }
