@@ -1,68 +1,131 @@
-/* 1. Reseteo y Tipografía */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
+/* Configuración para Diseñadores Gráficos */
 body {
-    background-color: #f4f4f9;
-    color: #333;
+    font-family: sans-serif;
+    background-color: #FFB86A
+; /* Un gris claro de fondo */
+    color: #0A0A0A; /* Texto gris oscuro para mejor lectura */
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
 }
 
-/* 2. Barra de Navegación (Navbar) */
-.navbar {
+header {
+    background-color: #E1712B; /* Un color elegante */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%; /* Hace que la foto de perfil sea circular */
+    border: 5px solid #FEFAE0;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+section {
+    background: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+/* Estilos para el Formulario */
+#contacto {
+    background-color: var(--blanco);
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre los campos */
+}
+
+.grupo-entrada {
+    display: flex;
+    flex-direction: column;
+}
+
+.grupo-entrada label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--azul-inem);
+}
+
+.grupo-entrada input, 
+.grupo-entrada textarea {
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.boton-enviar {
+    background-color: var(--rojo-inem);
+    color: green;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.boton-enviar:hover {
+    background-color: var(--azul-inem);
+}
+
+/* Menú Superior */
+.menu-superior {
+    background-color: #f03765; /* Azul - Así es visible */
+    padding: 15px 0;
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra para que resalte sobre el fondo */
+    width: 100%;
+    border-bottom: 50px solid #9e2b48;
+}
+
+.contenedor-menu {
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 5%;
-    background-color: #6a0dad; /* Púrpura vibrante */
-    color: white;
-    position: sticky;
-    top: 0;
-    z-index: 1000;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    padding: 0 20px;
 }
 
 .logo {
+    color: #ffffff; /* Blanco */
+    font-weight: bold;
     font-size: 1.5rem;
-    font-weight: bold;
-    letter-spacing: 1px;
+    text-transform: uppercase;
 }
 
-.nav-links {
-    display: flex;
+.enlaces {
     list-style: none;
+    display: flex;
+    gap: 80px; /* Espacio entre botones */
+    margin: 0;
 }
 
-.nav-links li {
-    margin: 0 15px;
-}
-
-.nav-links a {
-    color: white;
+.enlaces a {
+    color: #ffffff; /* Texto Blanco siempre visible */
     text-decoration: none;
-    font-weight: 500;
-    transition: color 0.3s;
-}
-
-.nav-links a:hover {
-    color: #d1a3ff; /* Un tono más claro al pasar el mouse */
-}
-
-/* 3. Botón de Carrito / Compras */
-.cart-btn {
-    background-color: #ffca28; /* Amarillo para que resalte */
-    border: none;
-    padding: 8px 15px;
-    border-radius: 20px;
     font-weight: bold;
-    cursor: pointer;
-    transition: transform 0.2s;
+    transition: 0.3s;
 }
 
-.cart-btn:hover {
-    transform: scale(1.05);
-    background-color: #ffd54f;
+.enlaces a:hover {
+    color: #ff0000; /* Rojo cuando pasas el mouse */
+}
+
+/* Botón del Carrito resaltado */
+.boton-carrito {
+    background-color: #d32f2f; /* Rojo*/
+    padding: 8px 18px;
+    border-radius: 25px;
+    border: 5px solid #f5b8b9;
 }
