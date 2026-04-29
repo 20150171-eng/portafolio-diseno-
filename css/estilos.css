@@ -75,7 +75,7 @@ section {
 /* Menú Superior */
 .menu-superior {
     background-color: #f8e287;
-    padding: 25px 0;
+    padding: 20px 0;
     position: sticky;
     top: 0;
     z-index: 1000;
