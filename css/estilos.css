@@ -109,7 +109,7 @@ section {
 .enlaces {
     list-style: none;
     display: flex;
-    gap: 30px;
+    gap: 40px;
     margin: 0;
     padding: 0;
 }
