@@ -1,45 +1,43 @@
-/* Configuración para Diseñadores Gráficos */
+/* Configuración General */
 body {
     font-family: sans-serif;
-    background-color: #FFB86A
-; /* Un gris claro de fondo */
-    color: #0A0A0A; /* Texto gris oscuro para mejor lectura */
+    background-color: #fef9e7;
+    color: #0A0A0A;
     line-height: 1.6;
     margin: 0;
     padding: 20px;
 }
 
+/* Encabezado */
 header {
-    background-color: #E1712B; /* Un color elegante */
+    background-color: #f7dc6f;
     color: white;
     padding: 20px;
     text-align: center;
 }
 
+/* Imagen de perfil */
 img {
-    border-radius: 50%; /* Hace que la foto de perfil sea circular */
+    border-radius: 50%;
     border: 5px solid #FEFAE0;
     box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+    display: block;
+    margin: 20px auto;
 }
 
+/* Secciones */
 section {
     background: white;
     margin-top: 20px;
     padding: 20px;
     border-radius: 8px;
 }
-/* Estilos para el Formulario */
-#contacto {
-    background-color: var(--blanco);
-    padding: 40px;
-    border-radius: 15px;
-    margin-top: 20px;
-}
 
+/* Formulario */
 .formulario {
     display: flex;
     flex-direction: column;
-    gap: 15px; /* Espacio entre los campos */
+    gap: 15px;
 }
 
 .grupo-entrada {
@@ -50,42 +48,40 @@ section {
 .grupo-entrada label {
     margin-bottom: 5px;
     font-weight: bold;
-    color: var(--azul-inem);
+    color: #b7950b;
 }
 
-.grupo-entrada input, 
+.grupo-entrada input,
 .grupo-entrada textarea {
     padding: 12px;
     border: 1px solid #ccc;
     border-radius: 8px;
-    font-size: 1rem;
 }
 
 .boton-enviar {
-    background-color: var(--rojo-inem);
-    color: green;
+    background-color: #f4d03f;
+    color: #5c4b00;
     padding: 15px;
     border: none;
     border-radius: 8px;
     font-weight: bold;
     cursor: pointer;
-    transition: background 0.3s ease;
 }
 
 .boton-enviar:hover {
-    background-color: var(--azul-inem);
+    background-color: #d4ac0d;
 }
 
 /* Menú Superior */
 .menu-superior {
-    background-color: #f03765; /* Azul - Así es visible */
+    background-color: #f8e287;
     padding: 15px 0;
-    position: sticky; 
+    position: sticky;
     top: 0;
     z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2); /* Sombra para que resalte sobre el fondo */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
     width: 100%;
-    border-bottom: 50px solid #9e2b48;
+    border-bottom: 5px solid #d4ac0d;
 }
 
 .contenedor-menu {
@@ -98,7 +94,7 @@ section {
 }
 
 .logo {
-    color: #ffffff; /* Blanco */
+    color: white;
     font-weight: bold;
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -107,25 +103,26 @@ section {
 .enlaces {
     list-style: none;
     display: flex;
-    gap: 80px; /* Espacio entre botones */
+    gap: 30px;
     margin: 0;
+    padding: 0;
 }
 
 .enlaces a {
-    color: #ffffff; /* Texto Blanco siempre visible */
+    color: white;
     text-decoration: none;
     font-weight: bold;
     transition: 0.3s;
 }
 
 .enlaces a:hover {
-    color: #ff0000; /* Rojo cuando pasas el mouse */
+    color: #7d6608;
 }
 
-/* Botón del Carrito resaltado */
+/* Botón carrito */
 .boton-carrito {
-    background-color: #d32f2f; /* Rojo*/
+    background-color: #d4ac0d;
     padding: 8px 18px;
     border-radius: 25px;
-    border: 5px solid #f5b8b9;
+    border: 2px solid white;
 }
